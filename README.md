@@ -1,5 +1,5 @@
 # U-Net for Image Segmentation
-
+![Architecture](imgs/unet_architecture.png)
 This project demonstrates the implementation of a U-Net architecture for semantic image segmentation. U-Net is a fully convolutional network with skip connections between the encoder and decoder stages, allowing it to capture both fine-grained details and high-level context in images. This structure is particularly effective for segmentation tasks, where precise boundary detection is crucial.
 
 ## Table of Contents
@@ -56,7 +56,7 @@ The fully convolutional nature of U-Net allows it to process images of different
 After training, the U-Net model produces segmentation masks that accurately classify image regions. Visualizations show the model's performance in distinguishing between foreground, background, and object outlines, even in complex pet shapes.
 
 ### Example Output:
-*(Example images comparing input images, ground truth masks, and predicted masks)*
+![Sample_output](imgs/unet_result.png)
 
 ## Future Improvements
 
